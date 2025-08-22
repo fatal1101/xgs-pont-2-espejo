@@ -33,7 +33,7 @@ cp -r my_files/999-2764-net-phy-sfp-add-some-FS-copper-SFP-fixes.patch openwrt/t
 
 echo "==== 5. CLONA Y COPIA PAQUETES PERSONALIZADOS ===="
 git clone --depth=1 --single-branch --branch main https://github.com/brudalevante/fakemesh-21-08-2025.git tmp_comxwrt
-cp -rv tmp_comxwrt/luci-app-fakemesh openwrt/package/
+#cp -rv tmp_comxwrt/luci-app-fakemesh openwrt/package/
 cp -rv tmp_comxwrt/luci-app-autoreboot openwrt/package/
 cp -rv tmp_comxwrt/luci-app-cpu-status openwrt/package/
 cp -rv tmp_comxwrt/luci-app-temp-status openwrt/package/
