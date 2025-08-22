@@ -69,7 +69,7 @@ make defconfig
 
 echo "==== 12. VERIFICACIÓN FINAL ===="
 for pkg in \
-  fakemesh autoreboot cpu-status temp-status dawn2 dawn usteer2 wireguard
+  autoreboot cpu-status temp-status dawn2 dawn usteer2 wireguard
 do
   grep $pkg .config || echo "NO aparece $pkg en .config"
 done
